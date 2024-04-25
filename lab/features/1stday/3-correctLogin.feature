@@ -17,3 +17,4 @@ Feature: Sauce Demo Correct Login
         When I click on the element "#login-button"
         And I pause for 1000ms
         Then  I wait on element "#inventory_container" to be displayed
+        And I pause for 1000ms
